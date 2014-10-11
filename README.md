@@ -115,10 +115,10 @@ puts YAML::dump {variable}
 
 .haml (Optional)
 
-Resources:
+## Resources:
 
 * **Youtube** - 
 <a href="https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1" target="_blank" title="Code Week Beehive">https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1</a>
 
 * **Slideshare** -
-<a href="http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails" target="_blank" title="">http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails</a>
+<a href="http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails" target="_blank" title="Code Week Beehive">http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails</a>
