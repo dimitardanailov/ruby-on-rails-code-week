@@ -1,4 +1,13 @@
-# Beehive.bg Code Week 2014 - Ruby on Rails
+## Beehive.bg Code Week 2014 - Ruby on Rails
+
+## Какво е Code Weeek
+Второто издание на Европейската седмица на програмирането ще се проведе от 11 до 17 октомври 2014 г. Идеята е тези умения да станат по-популярни и по-малко тайнствени и да се организират срещи между хора с учебна цел. Целта ни е привлечем милиони деца, родители, учители, предприемачи и политици за участие в прояви и уроци по програмиране и свързани с него умения.
+
+<a href="http://codeweek.beehive.bg" target="_blank" title="Code Week Beehive">http://codeweek.beehive.bg</a>
+
+## Описание на лекцията: 
+Основната цел на лекцията беше да предостави информация какво е Ruby on Rails и да мотивира всеки един от участниците да отдели време за изучаването на Ruby on Rails . 
+Също така да отговори: Защо Ruby on Rails в момента един oт най - добрите MVC framework.
 
 ## Installation:
 
@@ -80,8 +89,6 @@ rails generate model User # Create a new User Model
 rails generate scaffold University # Create a new scaffolding
 ```
 
-================================================
-
 ## Migrations:
 
 ```bash
@@ -102,10 +109,16 @@ rake db:rollback STEP=10 # Rolback 10 previous migrations
 puts YAML::dump {variable}
 ```
 
-================================================
-
 ## HTML Engines:
 
 .erb (Default)
 
 .haml (Optional)
+
+Resources:
+
+* **Youtube** - 
+<a href="https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1" target="_blank" title="Code Week Beehive">https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1</a>
+
+* **Slideshare** -
+<a href="http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails" target="_blank" title="">http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails</a>
