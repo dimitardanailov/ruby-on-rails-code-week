@@ -4,10 +4,14 @@
 Installation:
 </h3>
 
+Ruby and rvm installation:
+<br/>
 <code>
 \curl -sSL https://get.rvm.io | bash -s stable --ruby # http://rvm.io/rvm/install
 </code>
-
+<br/><br/>
+Ruby on Rails:
+<br/>
 <code>
 gem install rails --no-ri --no-rdoc
 </code>
@@ -25,6 +29,8 @@ rails new {project name} --database={database_engine}
 Example:
 <code>
 rails new code-week-varna --database=postgresql
+</code>
+<code>
 rails new code-week-varna --database=mysql
 </code>
 
@@ -32,11 +38,13 @@ Quick Remark: You should to create database
 
 ================================================
 
-Gemfile:
+<h3>
+Gemfile Gems:
+</h3>
 
+https://github.com/pinnymz/migration_comments
 <code>
-# https://github.com/pinnymz/migration_comments
-gem 'migration_comments'
+gem 'migration_comments' 
 </code>
 
 <code>
@@ -47,6 +55,10 @@ gem 'foreigner'
 <code>
 # https://github.com/amatsuda/kaminari
 gem 'kaminari'
+</code>
+
+<code>
+gem 'haml-rails' # If you want to change HTML engine from .erb to .haml
 </code>
 
 <code>
@@ -74,7 +86,10 @@ rails generate scaffold University # Create a new scaffolding
 
 ================================================
 
+<h3>
 Migrations:
+</h3>
+
 <code>
 rake db:migrate - Add migration to Database 
 
@@ -84,12 +99,21 @@ rake db:rollback STEP=10 - Rolback 10 previous migrations
 </code>
 
 ================================================
+
+<h3>
 Debug
+</h3>
+
 <code>
 puts YAML::dump {variable}
 </code>
 
 ================================================
+
+<h3>
 HTML Engines:
+</h3>
+
 .erb (Default)
+
 .haml (Optional)
