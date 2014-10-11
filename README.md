@@ -3,7 +3,7 @@
 ## Какво е Code Weeek
 Второто издание на Европейската седмица на програмирането ще се проведе от 11 до 17 октомври 2014 г. Идеята е тези умения да станат по-популярни и по-малко тайнствени и да се организират срещи между хора с учебна цел. Целта ни е привлечем милиони деца, родители, учители, предприемачи и политици за участие в прояви и уроци по програмиране и свързани с него умения.
 
-<a href="http://codeweek.beehive.bg" target="_blank" title="Code Week Beehive">http://codeweek.beehive.bg</a>
+http://codeweek.beehive.bg
 
 ## Описание на лекцията: 
 Основната цел на лекцията беше да предостави информация какво е Ruby on Rails и да мотивира всеки един от участниците да отдели време за изучаването на Ruby on Rails . 
@@ -117,8 +117,6 @@ puts YAML::dump {variable}
 
 ## Resources:
 
-* **Youtube** - 
-<a href="https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1" target="_blank" title="Code Week Beehive">https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1</a>
+* **Youtube** - https://www.youtube.com/watch?v=1VqK5m5a8bE&list=PLDEH_aLlnP5omyPlnC_2Ltmwdwyevd5um&index=1
 
-* **Slideshare** -
-<a href="http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails" target="_blank" title="Code Week Beehive">http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails</a>
+* **Slideshare** - http://www.slideshare.net/dimityrdanailov/code-week-ruby-on-rails
