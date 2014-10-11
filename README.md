@@ -1,118 +1,110 @@
-<h2>Beehive.bg Code Week 2014 - Ruby on Rails</h2>
+# Beehive.bg Code Week 2014 - Ruby on Rails
 
-<h3>
-Installation:
-</h3>
+## Installation:
 
 Ruby and rvm installation:
-<br/>
-<code>
+```bash
 \curl -sSL https://get.rvm.io | bash -s stable --ruby # http://rvm.io/rvm/install
-</code>
-<br/><br/>
+```
+
 Ruby on Rails:
-<br/>
-<code>
+```bash
 gem install rails --no-ri --no-rdoc
-</code>
+```
 
-================================================
+## Project Generation:
 
-<h3>
-Project Generation:
-</h3>
-
-<code>
+```bash
 rails new {project name} --database={database_engine}
-</code>
+```
 
 Example:
-<code>
+
+```bash
 rails new code-week-varna --database=postgresql
-</code>
-<code>
 rails new code-week-varna --database=mysql
-</code>
+```
 
 Quick Remark: You should to create database
 
-================================================
+## Gemfile Gems:
 
-<h3>
-Gemfile Gems:
-</h3>
-
-https://github.com/pinnymz/migration_comments
-<code>
+```ruby
+# https://github.com/pinnymz/migration_comments
 gem 'migration_comments' 
-</code>
+```
 
-<code>
+```ruby
 # https://github.com/matthuhiggins/foreigner
 gem 'foreigner'
-</code>
+```
 
-<code>
+```ruby
 # https://github.com/amatsuda/kaminari
 gem 'kaminari'
-</code>
+```
 
-<code>
+```ruby
 gem 'haml-rails' # If you want to change HTML engine from .erb to .haml
-</code>
+```
 
-<code>
-bundle install - Update and install all Gems
-</code>
+```bash
+bundle install # Update and install all Gems
+```
 
-<code>
+```bash
 bundle show
-</code>
+```
 
 ================================================
 
-Commands:
+## Commands:
 
-<code>
+```bash
 rails s # Start server
+```
 
+```bash
 rails generate controller User # Create a new User Controller
+```
+
+```bash
 rails generate controller Greetings hello
+```
 
+```bash
 rails generate model User # Create a new User Model
+```
 
+```bash
 rails generate scaffold University # Create a new scaffolding
-</code>
+```
 
 ================================================
 
-<h3>
-Migrations:
-</h3>
+## Migrations:
 
-<code>
-rake db:migrate - Add migration to Database 
+```bash
+rake db:migrate # Add migration to Database 
+```
 
-rake db:rollback - Rollback Last Migration
+```bash
+rake db:rollback # Rollback Last Migration
+```
 
-rake db:rollback STEP=10 - Rolback 10 previous migrations
-</code>
+```bash
+rake db:rollback STEP=10 # Rolback 10 previous migrations
+```
 
-================================================
+## Debug variable in our terminal
 
-<h3>
-Debug
-</h3>
-
-<code>
+```ruby
 puts YAML::dump {variable}
-</code>
+```
 
 ================================================
 
-<h3>
-HTML Engines:
-</h3>
+## HTML Engines:
 
 .erb (Default)
 
