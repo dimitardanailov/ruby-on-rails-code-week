@@ -105,6 +105,14 @@ rake db:rollback STEP=10 # Rolback 10 previous migrations
 
 ## Debug variable in our terminal
 
+In views:
+
+```ruby
+DebugHelper’s debug(object)
+```
+
+In controllers, models, and other code:
+
 ```ruby
 puts YAML::dump {variable}
 ```
