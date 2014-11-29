@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'greetings/hello'
 
   scope "/cms" do
+    resources :teachers
     resources :universities
     resources :high_scores
   end

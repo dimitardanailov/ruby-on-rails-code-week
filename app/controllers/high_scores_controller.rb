@@ -5,6 +5,7 @@ class HighScoresController < ApplicationController
   # GET /high_scores.json
   def index
     @high_scores = HighScore.all
+    puts YAML::dump @high_scores
   end
 
   # GET /high_scores/1
